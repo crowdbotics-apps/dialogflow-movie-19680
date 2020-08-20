@@ -32,9 +32,9 @@ urlpatterns = [
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "Dialogflow movie"
-admin.site.site_title = "Dialogflow movie Admin Portal"
-admin.site.index_title = "Dialogflow movie Admin"
+admin.site.site_header = "dialogflow-movie"
+admin.site.site_title = "dialogflow-movie Admin Portal"
+admin.site.index_title = "dialogflow-movie Admin"
 
 # swagger
 api_info = openapi.Info(
